@@ -1,9 +1,0 @@
-com/stock/model/Product.class
-com/stock/validationGroups/Create.class
-com/stock/repositories/ProductRepository.class
-com/stock/validationGroups/Edit.class
-com/stock/controllers/exceptions/ResourceNotFoundException.class
-com/stock/service/ProductService.class
-com/stock/repositories/ProductEntity.class
-com/stock/Application.class
-com/stock/controllers/ProductController.class
