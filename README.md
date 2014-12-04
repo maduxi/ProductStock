@@ -61,17 +61,17 @@ The best way to learn how to use it, is to try its features.
   Deletes a product by id. An example:
 
   ```bash
-    curl -X DELETE http://localhost:8080/product/2
+  curl -X DELETE http://localhost:8080/product/2
   ```
 - List all products
 
   Gets a list of all the available products. 
 
   ```bash
-    curl -X GET http://localhost:8080/product
+  curl -X GET http://localhost:8080/product
   ```
   - List all products by category
   
     ```bash
-      curl -X GET http://localhost:8080/product?category=TV
+    curl -X GET http://localhost:8080/product?category=TV
     ```
