@@ -21,9 +21,6 @@ public class Product {
     private Long id;
     
     @NotNull(groups=Create.class)
-    private Long quantity;
-    
-    @NotNull(groups=Create.class)
     private String name;
     
     private String description;
@@ -36,14 +33,6 @@ public class Product {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public Long getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(Long quantity) {
-        this.quantity = quantity;
     }
 
     public String getName() {

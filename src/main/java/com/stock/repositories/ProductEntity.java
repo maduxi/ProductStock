@@ -20,8 +20,6 @@ public class ProductEntity implements Serializable {
     @Id
     @GeneratedValue
     private Long id;
-
-    private Long quantity;
     
     @Column(nullable = false)
     private String name;
@@ -36,14 +34,6 @@ public class ProductEntity implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public Long getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(Long quantity) {
-        this.quantity = quantity;
     }
 
     public String getName() {
