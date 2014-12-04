@@ -75,8 +75,9 @@ The best way to learn how to use it, is to try its features.
     ```bash
     curl -X GET http://localhost:8080/product?category=TV
     ```
+
 TEST
----
+----
 To test the API, with the project can be found a Postman collection, that can be run to check the proper behaviour of the system:
 
 https://github.com/maduxi/ProductStock/blob/master/TestStock.json.postman_collection
