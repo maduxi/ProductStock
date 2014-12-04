@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.onebox</groupId>
-    <artifactId>OneBox-API-test</artifactId>
+    <groupId>com.stock</groupId>
+    <artifactId>Stock-API</artifactId>
     <version>0.1.0</version>
 
     <parent>
@@ -41,7 +41,7 @@
     </dependencies>
 
     <properties>
-        <start-class>com.onebox.Application</start-class>
+        <start-class>com.stock.Application</start-class>
     </properties>
 
     <build>
